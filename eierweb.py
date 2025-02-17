@@ -81,3 +81,7 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# Rename script for deployment
+if __name__ != "__main__":
+    eierweb = app
