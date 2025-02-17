@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-app = Flask(__name__)
+eierweb = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "output"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
