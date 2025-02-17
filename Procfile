@@ -1,1 +1,1 @@
-web: gunicorn eierweb:app
+web: gunicorn app:app
